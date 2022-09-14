@@ -1,5 +1,5 @@
 
-###New ESRB Category 
+### New ESRB Category 
 
 Helps demonstrate a need for a new categorization for video game ratings through machine learning techniques
 Motivation: We want to see if Teen is too much of a catchall for most game ratings and if so what could elucidate a new categorization
