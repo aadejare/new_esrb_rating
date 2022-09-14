@@ -12,7 +12,7 @@ This project runs on Python 3.7.12  once you confirm the settings you can start 
 Clone the project
 
 ```bash
-  git clone 
+  git clone https://github.com/aadejare/new_esrb_rating
 ```
 
 Go to the project directory
