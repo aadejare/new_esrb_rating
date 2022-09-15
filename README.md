@@ -2,7 +2,14 @@
 ### New ESRB Category following the CRISP-DM method
 
 Helps demonstrate a need for a new categorization for video game ratings through machine learning techniques
-Motivation: We want to see if Teen is too much of a catchall for most game ratings and if so what could elucidate a new categorization
+
+## Motivation
+
+We want to see if Teen is too much of a catchall for most game ratings and if so what could elucidate a new categorization. This motivation involved the following questions:
+
+1. Can we see if there's stark distiction between Teen, E10, and M for model prediction
+2. Can we see if there's a need for an inbetween label
+3. Can we predict what will be the indicators of the inbetween variables
 
 
 ## Run the project
@@ -35,6 +42,16 @@ Running the project, you will notice that there are some plots as well as extra 
 category to see if new labels can be generated as well as potentially predicting a rating.
 The best machine learning technqiue used was xgboost, but I would not be surprised if it performed well becasue it works with sparse data.
 
+## Files
+
+
+The files in the Repo are the following:
+```
+LISENSE: The MIT Lisense for the project
+README.md: The Read me file for the project
+new_esrb_rating.ipynb: The notebook to run the file
+Video_games_esrb_rating.csv: Traninig dataset containing records that have the ratings and the descriptions that merrit the rating
+test_esrb.csv: New dataset to evaluate model
 
 ## Data source
 
@@ -44,8 +61,8 @@ Download the files and replace the file paths with where the files are located o
 
 The data sources are the following
 ```
-Video_games_esrb_rating.csv: Traninig dataset containing records that have the ratings and the descriptions that merrit the rating
-test_esrb.csv: New dataset to evaluate model  
+Video_games_esrb_rating.csv
+test_esrb.csv  
 ```
 ## Deployment
 
@@ -82,4 +99,8 @@ There's more but you should play around with it and discover more through the no
 ## Authors
 
 - [@aadejare](https://www.github.com/aadejare)
+
+## Reference 
+
+- [Let’s Invent a New ESRB Category](https://projectpioneer.wordpress.com/2022/09/14/lets-invent-a-new-esrb-category/) [Article]
 
